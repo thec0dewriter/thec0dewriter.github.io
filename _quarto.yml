@@ -1,0 +1,41 @@
+project:
+  type: website
+
+website:
+  title: "Life After Coding"
+  site-url: "https://www.lifeaftercoding.net"
+  description: "Personal blog and thoughts on programming, technology, and life"
+  
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: "Home"
+        file: index.qmd
+      - text: "About"
+        file: about.qmd
+    right:
+      - icon: github
+        href: https://github.com/thec0dewriter
+        aria-label: GitHub
+      - icon: rss
+        href: index.xml
+        aria-label: RSS Feed
+
+  page-footer:
+    background: light
+    left: "© 2025 Life After Coding. All rights reserved."
+    right:
+      - icon: github
+        href: https://github.com/thec0dewriter
+        aria-label: GitHub
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    link-external-newwindow: true
+
+execute:
+  freeze: auto

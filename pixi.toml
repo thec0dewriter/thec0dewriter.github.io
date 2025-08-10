@@ -1,0 +1,44 @@
+[project]
+name = "life-after-coding-blog"
+version = "1.0.0"
+description = "Personal blog built with Quarto"
+authors = ["The Code Writer <your-email@example.com>"]
+channels = ["conda-forge"]
+platforms = ["win-64", "linux-64", "osx-64", "osx-arm64"]
+
+[dependencies]
+python = ">=3.9"
+jupyter = "*"
+matplotlib = "*"
+plotly = "*"
+pandas = "*"
+numpy = "*"
+seaborn = "*"
+quarto = "*"
+
+[tasks]
+preview = "quarto preview"
+render = "quarto render"
+clean = "quarto clean"
+check = "quarto check"
+serve = "quarto preview --port 4200 --host 0.0.0.0"
+build = "quarto render"
+new-post = { cmd = "python scripts/new_post.py", depends-on = [
+    "create-scripts",
+] }
+create-scripts = "mkdir -p scripts"
+install-quarto = { cmd = "echo 'Please install Quarto manually from https://quarto.org'", description = "Reminder to install Quarto" }
+
+[environments]
+default = { solve-group = "default" }
+dev = { features = ["dev"], solve-group = "default" }
+
+[feature.dev.dependencies]
+black = "*"
+flake8 = "*"
+mypy = "*"
+
+[feature.dev.tasks]
+format = "black ."
+lint = "flake8 ."
+typecheck = "mypy ."

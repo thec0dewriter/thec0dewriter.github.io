@@ -1,0 +1,85 @@
+---
+title: "Welcome to Life After Coding - Now Powered by Quarto"
+description: "Introducing the new blog built with Quarto, a modern scientific and technical publishing system"
+author: "The Code Writer"
+date: "2025-08-10"
+categories:
+  - announcements
+  - quarto
+  - blogging
+image: "thumbnail.jpg"
+draft: false
+---
+
+## A New Beginning
+
+Welcome to the revamped **Life After Coding** blog! I'm excited to share that this site has been completely rebuilt using [Quarto](https://quarto.org), a modern scientific and technical publishing system that brings together the best of reproducible research and web publishing.
+
+## Why Quarto?
+
+After using Jekyll for a while, I decided to migrate to Quarto for several compelling reasons:
+
+### 🔬 **Scientific Computing Integration**
+Quarto seamlessly integrates with Python, R, Julia, and Observable, making it perfect for data-driven blog posts and technical tutorials.
+
+### 📝 **Markdown-First Approach**
+Write in familiar Markdown syntax while having access to powerful extensions for citations, cross-references, and advanced formatting.
+
+### 🎨 **Beautiful Themes**
+Built-in support for responsive, accessible themes that look great on any device.
+
+### 🔄 **Reproducible Content**
+Execute code blocks during rendering to ensure examples always work and outputs stay current.
+
+## What's New?
+
+Here's what you can expect from the new blog:
+
+- **Enhanced readability** with improved typography and layout
+- **Better code highlighting** and execution capabilities
+- **Interactive elements** for data visualizations
+- **Improved search functionality**
+- **Mobile-optimized** responsive design
+
+## Sample Code Block
+
+Here's a simple Python example to demonstrate Quarto's code execution capabilities:
+
+```python
+# A simple Python example
+import datetime
+
+def get_blog_stats():
+    return {
+        "launch_date": "2025-08-10",
+        "platform": "Quarto",
+        "status": "Ready to rock! 🚀"
+    }
+
+stats = get_blog_stats()
+print(f"Blog launched on {stats['launch_date']} using {stats['platform']}")
+print(f"Status: {stats['status']}")
+```
+
+## Coming Soon
+
+I'm planning several exciting content series:
+
+1. **Quarto Deep Dives** - Comprehensive tutorials on using Quarto for various projects
+2. **Data Science Workflows** - End-to-end data analysis tutorials
+3. **Career Transitions** - Insights on navigating the tech industry
+4. **Tool Reviews** - Honest reviews of development tools and services
+
+## Stay Connected
+
+Don't forget to:
+
+- Subscribe to the [RSS feed](../../index.xml) for updates
+- Follow me on [GitHub](https://github.com/thec0dewriter) for code samples
+- Reach out with questions or topic suggestions
+
+Thanks for reading, and welcome to the new era of Life After Coding!
+
+---
+
+*This post was written in Quarto Markdown and demonstrates some of the platform's key features. The blog source code is available on GitHub for those interested in seeing how it's built.*

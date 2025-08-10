@@ -1,0 +1,25 @@
+---
+title: "Life After Coding"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  feed: true
+page-layout: full
+title-block-banner: true
+---
+
+Welcome to my personal blog where I share thoughts on programming, technology, career transitions, and life beyond the code.
+
+## Latest Posts
+
+The latest posts will appear here automatically when you add content to the `posts` folder.
+
+## About This Blog
+
+This blog is built with [Quarto](https://quarto.org), a modern scientific and technical publishing system that supports reproducible content creation with code, data, and narrative.
+
+Feel free to explore the posts and don't hesitate to reach out if you have any questions or want to connect!

@@ -1,0 +1,42 @@
+{
+    "folders": [
+        {
+            "name": "Life After Coding Blog",
+            "path": "."
+        }
+    ],
+    "settings": {
+        "terminal.integrated.defaultProfile.windows": "Command Prompt",
+        "terminal.integrated.profiles.windows": {
+            "Pixi Shell": {
+                "path": "cmd.exe",
+                "args": ["/k", "pixi", "shell"],
+                "icon": "terminal-cmd"
+            }
+        }
+    },
+    "extensions": {
+        "recommendations": [
+            "quarto.quarto",
+            "ms-python.python",
+            "ms-python.black-formatter",
+            "ms-python.flake8",
+            "ms-python.mypy-type-checker",
+            "ms-python.debugpy",
+            "ms-toolsai.jupyter",
+            "tamasfe.even-better-toml",
+            "yzhang.markdown-all-in-one",
+            "davidanson.vscode-markdownlint",
+            "ms-vscode.vscode-json"
+        ],
+        "unwantedRecommendations": [
+            "ms-python.pylint"
+        ]
+    },
+    "tasks": {
+        "version": "2.0.0",
+        "options": {
+            "cwd": "${workspaceFolder}"
+        }
+    }
+}
