@@ -29,18 +29,15 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-          cache: "pip"
 
-      - name: Install Python dependencies
+      - name: Install Pixi
         run: |
-          # Try pixi first, fallback to pip
-          if [ -f "pixi.toml" ]; then
-            curl -fsSL https://pixi.sh/install.sh | bash
-            export PATH="$HOME/.pixi/bin:$PATH"
-            pixi install
-          else
-            pip install jupyter matplotlib plotly pandas numpy seaborn
-          fi
+          curl -fsSL https://pixi.sh/install.sh | bash
+          echo "$HOME/.pixi/bin" >> $GITHUB_PATH
+
+      - name: Install Python dependencies with Pixi
+        run: |
+          pixi install
 
       - name: Render Quarto Project
         uses: quarto-dev/quarto-actions/render@v2
