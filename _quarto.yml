@@ -3,7 +3,7 @@ project:
 
 website:
   title: "Life After Coding"
-  site-url: "https://www.lifeaftercoding.net"
+  site-url: "https://lifeaftercoding.net"
   description: "Personal blog and thoughts on programming, technology, and life"
   
   navbar:
@@ -12,6 +12,10 @@ website:
     left:
       - text: "Home"
         file: index.qmd
+      - text: "Posts"
+        file: posts/index.qmd
+      - text: "Tags"
+        file: tags.qmd
       - text: "About"
         file: about.qmd
     right:
@@ -32,10 +36,20 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: zephyr
+      dark: darkly
     css: styles.css
+    highlight-style: github
     toc: true
     link-external-newwindow: true
 
 execute:
   freeze: auto
+
+metadata:
+  open-graph: true
+  twitter-card:
+    card-style: summary_large_image
+    creator: "@thec0dewriter"
+  image: "/images/blog-cover.jpg"

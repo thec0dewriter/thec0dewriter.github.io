@@ -1,0 +1,14 @@
+---
+title: "All Posts"
+page-layout: full
+listing:
+  contents: posts
+  sort: "date desc"
+  type: table
+  categories: true
+  feed: true
+  sort-ui: true
+  filter-ui: true
+---
+
+Browse all posts by date. Use the filters above to narrow down by category.
