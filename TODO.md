@@ -90,7 +90,7 @@ A running checklist to track site polish, theme customization, and feature ideas
 
 ## 9) CI/CD and deployment
 
-- [ ] Bump `actions/upload-pages-artifact` to `@v4`
+- [x] Bump `actions/upload-pages-artifact` to `@v4`
 - [ ] Keep `actions/configure-pages@v4` and `actions/deploy-pages@v4`
 - [ ] Ensure `environment: name: github-pages` is present (done)
 - [ ] Add cache steps for Quarto/pipx/pixi if beneficial
@@ -113,7 +113,7 @@ A running checklist to track site polish, theme customization, and feature ideas
 
 ## Quick wins (pick 3–5)
 
-- [ ] Turn on `styles.css` and set `highlight-style: github`
+- [x] Turn on `styles.css` and set `highlight-style: github`
 - [ ] Add dark mode pairing (`darkly`)
 - [ ] Create a posts listing page and tag pages
 - [ ] Add social preview image and Open Graph tags

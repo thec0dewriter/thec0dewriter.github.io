@@ -41,8 +41,6 @@ format:
       dark: darkly
     css: styles.css
     highlight-style: github
-    toc: true
-    link-external-newwindow: true
 
 execute:
   freeze: auto
@@ -52,4 +50,4 @@ metadata:
   twitter-card:
     card-style: summary_large_image
     creator: "@thec0dewriter"
-  image: "/images/blog-cover.jpg"
+  image: "https://via.placeholder.com/1200x630.png?text=Life%20After%20Coding"
