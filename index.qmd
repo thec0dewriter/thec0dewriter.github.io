@@ -1,5 +1,6 @@
 ---
 title: "Life After Coding"
+body-classes: home-page
 listing:
   contents: posts
   sort: "date desc"
@@ -12,14 +13,35 @@ page-layout: full
 title-block-banner: true
 ---
 
-Welcome to my personal blog where I share thoughts on programming, technology, career transitions, and life beyond the code.
+::: {.home-hero}
+<div class="home-hero__eyebrow">Programming • Data • Career Transitions</div>
 
-## Latest Posts
+Welcome to my personal blog where I share practical lessons on programming, technology, career transitions, and life beyond the code.
+
+<div class="home-hero__actions">
+[Read Latest Posts](#latest-posts){.btn .btn-primary}
+[About the Author](/about.html){.btn .btn-outline-primary}
+</div>
+:::
+
+::: {.home-intro-grid}
+::: {.home-intro-card}
+### What You'll Find Here
+
+- Practical tutorials and engineering workflows
+- Notes on reproducible publishing with Quarto
+- Reflections on building a sustainable career in tech
+:::
+
+::: {.home-intro-card}
+### About This Blog
+
+This blog is built with [Quarto](https://quarto.org), a modern publishing system that combines narrative writing with code, data, and reproducible outputs.
+
+New articles appear automatically below as they are published.
+:::
+:::
+
+## Latest Posts {#latest-posts}
 
 The latest posts will appear here automatically when you add content to the `posts` folder.
-
-## About This Blog
-
-This blog is built with [Quarto](https://quarto.org), a modern scientific and technical publishing system that supports reproducible content creation with code, data, and narrative.
-
-Feel free to explore the posts and don't hesitate to reach out if you have any questions or want to connect!

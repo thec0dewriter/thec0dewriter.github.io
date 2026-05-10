@@ -1,6 +1,7 @@
 ---
 title: "About"
 image: profile.jpg
+body-classes: about-page
 about:
   template: jolla
   links:
@@ -17,9 +18,11 @@ about:
 
 ## About Me
 
+::: {.about-intro}
 I’m The Code Writer — a developer and data practitioner sharing practical lessons on programming, technology, career transitions, and life beyond the code.
 
 My day-to-day work focuses on data engineering and machine learning solutions, with a strong interest in building reliable, production-ready systems.
+:::
 
 ## What You'll Find Here
 
@@ -41,4 +44,3 @@ My research direction centers on **interpretable and explainable forecasting mod
 - better communication between advanced ML models and business decision-makers
 
 For publications and research updates, visit my [Google Scholar profile](https://scholar.google.com/citations?user=hrEn-wIAAAAJ).
-
