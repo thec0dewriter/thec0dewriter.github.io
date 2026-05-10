@@ -9,32 +9,36 @@ about:
       href: https://github.com/thec0dewriter
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/your-profile
-    - icon: envelope
-      text: Email
-      href: mailto:your-email@example.com
+      href: https://www.linkedin.com/in/kkmatyas/
+    - icon: mortarboard
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=hrEn-wIAAAAJ
 ---
 
 ## About Me
 
-Welcome! I'm a software developer passionate about technology, continuous learning, and sharing knowledge with the community.
+I’m The Code Writer — a developer and data practitioner sharing practical lessons on programming, technology, career transitions, and life beyond the code.
 
-## My Journey
-
-I've been working in software development for several years, specializing in web technologies, cloud computing, and modern development practices. This blog serves as a platform to share my experiences, insights, and lessons learned along the way.
+My day-to-day work focuses on data engineering and machine learning solutions, with a strong interest in building reliable, production-ready systems.
 
 ## What You'll Find Here
 
-On this blog, you'll discover:
+Content on this blog spans:
 
-- **Technical tutorials** and how-to guides
-- **Career insights** and professional development tips
-- **Tool reviews** and technology recommendations
-- **Personal reflections** on the tech industry
-- **Project showcases** and case studies
+- **Python & data science tutorials** — from beginner fundamentals to production patterns
+- **Quarto & reproducible publishing** — practical guides on authoring data-driven content
+- **Career transitions** — honest reflections on navigating the tech industry and life beyond the code
+- **Tool reviews** — hands-on coverage of development and data tooling
 
-## Get In Touch
+Planned series include *Data Science Workflows*, *Quarto Deep Dives*, and *Career Transitions* — subscribe to the [RSS feed](https://lifeaftercoding.net/index.xml) for updates.
 
-I love connecting with fellow developers and tech enthusiasts. Feel free to reach out through any of the social links above, or simply drop me an email. I'm always open to interesting conversations about technology, career growth, or potential collaborations.
+## Research Focus
 
-Thanks for visiting, and I hope you find the content here useful and engaging!
+My research direction centers on **interpretable and explainable forecasting models**:
+
+- transparent forecasting workflows that make predictions easier to trust
+- explainability techniques for time-series use cases (feature attribution and model reasoning)
+- better communication between advanced ML models and business decision-makers
+
+For publications and research updates, visit my [Google Scholar profile](https://scholar.google.com/citations?user=hrEn-wIAAAAJ).
+
