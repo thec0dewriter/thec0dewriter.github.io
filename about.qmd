@@ -19,7 +19,7 @@ about:
 
 I’m The Code Writer — a developer and data practitioner sharing practical lessons on programming, technology, career transitions, and life beyond the code.
 
-My day-to-day work focuses on Azure-based data engineering and machine learning solutions, with a strong interest in building reliable, production-ready systems.
+My day-to-day work focuses on data engineering and machine learning solutions, with a strong interest in building reliable, production-ready systems.
 
 ## Research Focus
 
@@ -30,22 +30,6 @@ My research direction centers on **interpretable and explainable forecasting mod
 - better communication between advanced ML models and business decision-makers
 
 For publications and research updates, visit my [Google Scholar profile](https://scholar.google.com/citations?user=hrEn-wIAAAAJ).
-
-## Repository Activity Highlights
-
-Recent highlights from [`thec0dewriter/thec0dewriter.github.io`](https://github.com/thec0dewriter/thec0dewriter.github.io):
-
-- **Nov 2025:** [Theme update](https://github.com/thec0dewriter/thec0dewriter.github.io/commit/c2aacaf08f2404b0fa7d1f423c8c6fa03ed62381)
-- **Aug 2025:** [Enabled dark mode + improved metadata + tags/posts pages](https://github.com/thec0dewriter/thec0dewriter.github.io/commit/57789cdb24b481d4b048fb36c4739e20b05834d2)
-- **Aug 2025:** [Migrated from Jekyll to Quarto](https://github.com/thec0dewriter/thec0dewriter.github.io/commit/2b705700df898584342e8df9bbe273c9808ea402)
-- **Current work:** [About page profile/activity refresh (PR #3)](https://github.com/thec0dewriter/thec0dewriter.github.io/pull/3)
-
-## Notable Repositories
-
-- [thec0dewriter/thec0dewriter](https://github.com/thec0dewriter/thec0dewriter) — profile repository with current focus areas and research direction
-- [thec0dewriter/clean_lab](https://github.com/thec0dewriter/clean_lab) — Python project work
-- [thec0dewriter/SnapDepDoc](https://github.com/thec0dewriter/SnapDepDoc) — Python tooling/project exploration
-- [thec0dewriter/captain_hook](https://github.com/thec0dewriter/captain_hook) — shell scripting repository
 
 ## Research & Academic Links
 
