@@ -199,6 +199,105 @@ img:hover { box-shadow: var(--shadow-md); }
   border-radius: 0 6px 6px 0;
 }
 
+/* Home page polish */
+.home-page .quarto-title-banner {
+  background: linear-gradient(135deg, rgba(13, 110, 253, 0.12), rgba(13, 202, 240, 0.08));
+  border-bottom: 1px solid var(--border-color);
+  padding-top: 3rem;
+  padding-bottom: 2.5rem;
+}
+
+.home-page .quarto-title .title {
+  border-bottom: none;
+  font-size: clamp(2rem, 2.5vw, 2.8rem);
+  margin-bottom: 0.6rem;
+  letter-spacing: -0.02em;
+}
+
+.home-page .quarto-title .subtitle,
+.home-page .quarto-title-meta {
+  color: var(--text-secondary);
+}
+
+.home-page .content {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home-hero {
+  margin: 2.25rem 0 2rem;
+  padding: 1.75rem;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  background: var(--bg-primary);
+  box-shadow: var(--shadow-sm);
+}
+
+.home-hero__eyebrow {
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  margin-bottom: 0.75rem;
+}
+
+.home-hero__actions {
+  margin-top: 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.home-intro-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.home-intro-card {
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  background: var(--bg-primary);
+  padding: 1.25rem 1.4rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.home-intro-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+  font-size: 1.2rem;
+}
+
+.home-page #latest-posts {
+  margin-top: 2.4rem;
+}
+
+.home-page .quarto-listing {
+  margin-top: 1rem;
+}
+
+/* About page polish */
+.about-page .quarto-title-banner {
+  background: linear-gradient(135deg, rgba(13, 110, 253, 0.1), rgba(25, 135, 84, 0.08));
+  border-bottom: 1px solid var(--border-color);
+}
+
+.about-page .about-intro {
+  background: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-sm);
+  padding: 1.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-page h2 {
+  margin-top: 2.2rem;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .navbar-brand { font-size: 1.2rem; }
@@ -206,6 +305,25 @@ img:hover { box-shadow: var(--shadow-md); }
   h2 { font-size: 1.7rem; }
   blockquote { padding: 1rem 1.5rem; }
   .quarto-listing .card { margin-bottom: 1.5rem; }
+  .home-page .quarto-title-banner {
+    padding-top: 2.2rem;
+    padding-bottom: 1.8rem;
+  }
+  .home-hero {
+    margin-top: 1.5rem;
+    padding: 1.3rem;
+  }
+  .home-intro-grid {
+    grid-template-columns: 1fr;
+    gap: 0.9rem;
+  }
+  .home-hero__actions .btn {
+    width: 100%;
+    justify-content: center;
+  }
+  .about-page .about-intro {
+    padding: 1.15rem;
+  }
 }
 
 /* Quarto dark theme alignment (e.g., darkly) */
