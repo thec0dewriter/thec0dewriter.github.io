@@ -42,8 +42,3 @@ My research direction centers on **interpretable and explainable forecasting mod
 
 For publications and research updates, visit my [Google Scholar profile](https://scholar.google.com/citations?user=hrEn-wIAAAAJ).
 
-## Research & Academic Links
-
-- [Google Scholar](https://scholar.google.com/citations?user=hrEn-wIAAAAJ) — publications and citation profile
-- [LinkedIn](https://www.linkedin.com/in/kkmatyas/) — professional experience and certifications
-- [GitHub](https://github.com/thec0dewriter) — open-source and personal projects
