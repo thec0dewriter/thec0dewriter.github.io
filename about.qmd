@@ -9,32 +9,46 @@ about:
       href: https://github.com/thec0dewriter
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/your-profile
-    - icon: envelope
-      text: Email
-      href: mailto:your-email@example.com
+      href: https://www.linkedin.com/in/kkmatyas/
+    - icon: mortarboard
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=hrEn-wIAAAAJ
 ---
 
 ## About Me
 
-Welcome! I'm a software developer passionate about technology, continuous learning, and sharing knowledge with the community.
+I’m The Code Writer — a developer and data practitioner sharing practical lessons on programming, technology, career transitions, and life beyond the code.
 
-## My Journey
+My day-to-day work focuses on Azure-based data engineering and machine learning solutions, with a strong interest in building reliable, production-ready systems.
 
-I've been working in software development for several years, specializing in web technologies, cloud computing, and modern development practices. This blog serves as a platform to share my experiences, insights, and lessons learned along the way.
+## Research Focus
 
-## What You'll Find Here
+My research direction centers on **interpretable and explainable forecasting models**:
 
-On this blog, you'll discover:
+- transparent forecasting workflows that make predictions easier to trust
+- explainability techniques for time-series use cases (feature attribution and model reasoning)
+- better communication between advanced ML models and business decision-makers
 
-- **Technical tutorials** and how-to guides
-- **Career insights** and professional development tips
-- **Tool reviews** and technology recommendations
-- **Personal reflections** on the tech industry
-- **Project showcases** and case studies
+For publications and research updates, visit my [Google Scholar profile](https://scholar.google.com/citations?user=hrEn-wIAAAAJ).
 
-## Get In Touch
+## Repository Activity Highlights
 
-I love connecting with fellow developers and tech enthusiasts. Feel free to reach out through any of the social links above, or simply drop me an email. I'm always open to interesting conversations about technology, career growth, or potential collaborations.
+Recent highlights from [`thec0dewriter/thec0dewriter.github.io`](https://github.com/thec0dewriter/thec0dewriter.github.io):
 
-Thanks for visiting, and I hope you find the content here useful and engaging!
+- **Nov 2025:** [Theme update](https://github.com/thec0dewriter/thec0dewriter.github.io/commit/c2aacaf08f2404b0fa7d1f423c8c6fa03ed62381)
+- **Aug 2025:** [Enabled dark mode + improved metadata + tags/posts pages](https://github.com/thec0dewriter/thec0dewriter.github.io/commit/57789cdb24b481d4b048fb36c4739e20b05834d2)
+- **Aug 2025:** [Migrated from Jekyll to Quarto](https://github.com/thec0dewriter/thec0dewriter.github.io/commit/2b705700df898584342e8df9bbe273c9808ea402)
+- **Current work:** [About page profile/activity refresh (PR #3)](https://github.com/thec0dewriter/thec0dewriter.github.io/pull/3)
+
+## Notable Repositories
+
+- [thec0dewriter/thec0dewriter](https://github.com/thec0dewriter/thec0dewriter) — profile repository with current focus areas and research direction
+- [thec0dewriter/clean_lab](https://github.com/thec0dewriter/clean_lab) — Python project work
+- [thec0dewriter/SnapDepDoc](https://github.com/thec0dewriter/SnapDepDoc) — Python tooling/project exploration
+- [thec0dewriter/captain_hook](https://github.com/thec0dewriter/captain_hook) — shell scripting repository
+
+## Research & Academic Links
+
+- [Google Scholar](https://scholar.google.com/citations?user=hrEn-wIAAAAJ) — publications and citation profile
+- [LinkedIn](https://www.linkedin.com/in/kkmatyas/) — professional experience and certifications
+- [GitHub](https://github.com/thec0dewriter) — open-source and personal projects
